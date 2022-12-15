@@ -1,0 +1,115 @@
+/*.fúd{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-end;
+    
+}
+p{
+    padding: 5px;
+}
+.cim{
+    height: 10vh;
+   
+}*/
+
+
+
+body{
+
+position: relative;
+width: 1920.65px;
+height: 1812px;
+
+background: #6D6F66;
+
+}
+.imgb{
+
+position: absolute;
+width: 1912px;
+height: 243px;
+left: 4px;
+top: 103px;
+
+background: #AEAEAE;
+}
+
+.imgb1{
+
+position: absolute;
+width: 1941.57px;
+height: 381.58px;
+left: -29.8px;
+top: -22.03px;
+
+background: url(image.png);
+}
+
+.Jancsi{
+
+position: absolute;
+width: 258.31px;
+height: 492.62px;
+left: 145px;
+top: 390px;
+
+background: #F8EBD9;
+border-radius: 28.574px;
+
+}
+.Jancsiimg{
+
+position: absolute;
+width: 258.31px;
+height: 210.88px;
+left: -7.43px;
+top: 35.43px;
+
+background: url(image.png);
+
+}
+.Jancsip{
+
+position: absolute;
+width: 258.31px;
+height: 227.45px;
+left: 0px;
+top: 210.88px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18.2874px;
+line-height: 22px;
+
+color: #000000;
+
+}
+
+.Jancsip{
+
+position: absolute;
+width: 226.88px;
+height: 34.29px;
+left: 48px;
+top: 1.14px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 27.4311px;
+line-height: 33px;
+
+color: #000000;
+}
+
+
