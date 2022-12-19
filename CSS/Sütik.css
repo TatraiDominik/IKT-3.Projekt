@@ -1,6 +1,12 @@
 body{
     background-color: #6D6F66;
 }
+img{
+    height: 20h;
+    width: 25vh;
+}
+
+/*nav,navbar*/
 nav{
     background-color: #B0CB46;
     height: 50px;
@@ -40,4 +46,34 @@ nav div{
     background-color: black;
     color: white;
 }
-.Jancsi{}
+
+/*Flex*/
+.teljes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    
+}
+
+.Jancsi{
+    background-color: #F8EBD9;
+    border-radius: 20px;
+}
+.Dobos{
+    background-color: #F8EBD9;
+    border-radius: 20px;
+}
+.Somloi{
+    background-color: #F8EBD9;
+    border-radius: 20px;
+}
+.Rakoczi{
+    background-color: #F8EBD9;
+    border-radius: 20px;
+}
+.Eszterhazy{
+    background-color: #F8EBD9;
+    padding-left: 10px;
+    border-radius: 20px;
+}
