@@ -1,0 +1,44 @@
+nav{
+    display: flex;
+    background-color: #F8EBD9;
+    width: 100%;
+}
+
+nav a{
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    transition: .3s;
+}
+
+nav a:hover{
+    background-color: black;
+    color: white;
+}
+
+header{
+    background-color: #B0CB46;
+    height: 50px;
+    display: flex;
+}
+header div{
+    min-width: 150px;
+    width: 30%;
+    max-width: 300px;
+    background-color: black;
+    align-self: center;
+    margin-left: 10%;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+.boxok{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#fozes{
+    
+}
