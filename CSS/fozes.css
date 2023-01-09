@@ -18,9 +18,11 @@ nav{
     display: flex;
     background-color: #F8EBD9;
     width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
-nav a{
+nav div a{
     padding: 10px;
     font-size: 20px;
     color: black;
@@ -60,6 +62,7 @@ header div{
 
 .kartya{
     background-color: white;
+    border-radius: 10px;
     width: 250px;
     min-height: 350px;
     margin: 10px;
@@ -73,7 +76,6 @@ header div{
     text-align: justify;
     margin: 5px;
 }
-
 
 button{
     min-width: 25px;
@@ -97,4 +99,15 @@ button:hover > hr{
 
 button:active > hr{
     background-color: red;
+}
+
+
+@media screen and (max-width: 500px) {
+    nav div{
+        display: none;
+    }
+
+    nav{
+        justify-content: flex-end;
+    }
 }
