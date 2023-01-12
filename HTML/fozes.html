@@ -13,43 +13,67 @@
     </header>
 
     <nav>
-        <a href="index.html">Fő oldal</a>
-        <a href="fozes.html">Főzés</a>
-        <a href="foetelek.html">Fő ételek</a>
-        <a href="sutik.html">Sütik</a>
-        <a href="rolunk.html">Rólunk</a>
+        <button type="menu" onclick="MobileMenu()" class="hamMenu" id="hamMenu">
+            <hr>
+            <hr>
+            <hr>
+        </button>
+
+        <div class="Menu" id="Menu">
+            <a href="index.html">Fő oldal</a>
+            <a href="fozes.html">Főzés</a>
+            <a href="foetelek.html">Fő ételek</a>
+            <a href="sutik.html">Sütik</a>
+            <a href="rolunk.html">Rólunk</a>
+        </div>
     </nav>
 
     <div class="content">
         <div class="kartya gulyasleves">
             <h2>Gulyásleves</h2>
             <img class="kep" src="../IMG/Fozes_IMG/gulyasleves.png" alt="Gulyásleves" title="Gulyásleves">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat repellat impedit corrupti quas asperiores expedita rem deserunt quasi sequi! Aut quia temporibus quisquam exercitationem architecto ad fugiat iste ratione cum.</p>
+            <p>Az általában bográcsban készülő étel nagyon tápláló és ízletes, tele zöldségekkel <br> <br> Elkészítési idő: 160 perc</p>
         </div>
 
         <div class="kartya halaszle">
             <h2>Halászlé</h2>
             <img class="kep" src="../IMG/Fozes_IMG/halaszle.png" alt="Halászlé" title="Halászlé">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, eveniet! Quam quas, accusantium illum modi quo quia nesciunt adipisci distinctio velit eius odio vitae blanditiis reiciendis voluptatum nisi eaque quidem!</p>
+            <p>A magyarok legnevezetesebb étele. Bográcsban készül, ünnepekkor. Az étel a legegészségesebbek egyike. Legfőbb összetevői a hús és tészta. <br> <br>
+            Elkészítési idő: 140 perc</p>
         </div>
 
         <div class="kartya lecso">
             <h2>Lecsó</h2>
             <img class="kep" src="../IMG/Fozes_IMG/lecso.png" alt="Lecsó" title="Lecsó">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis pariatur soluta aut esse eligendi animi qui, veritatis, sequi ipsum rerum quibusdam id mollitia blanditiis repellendus. Praesentium accusamus libero modi incidunt!</p>
+            <p>E finom népszerű étel, a 19. század közepe óta készül Magyarországon.
+            Sok zöldséget, és kevés hústfélét tartalmaz. Laktató főétel. <br> <br>
+            Elkészítési idő: 50 perc</p>
         </div>
 
         <div class="kartya husleves">
             <h2>Húsleves</h2>
             <img class="kep" src="../IMG/Fozes_IMG/Husleves.png" alt="Húsleves" title="Húsleves">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quasi sequi ipsa ea. Vitae eligendi voluptate sunt minima reprehenderit! Voluptatem non, amet nihil sed temporibus facilis alias beatae velit pariatur!</p>
+            <p>Jó télen és nyáron, elkészíthető különféle húsokból, és tartalmaz zöldségféléket is, mint pédául répa, hagyma, karalábé, stb.. <br> <br> 
+            Elkészítési idő: 120-180 perc</p>
         </div>
 
         <div class="kartya krumplifozelek">
             <h2>Krumplifőzelék</h2>
             <img class="kep" src="../IMG/Fozes_IMG/krumplifozelek.png" alt="Krumplifőzelék" title="Krumplifőzelék">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus provident pariatur asperiores amet iure eveniet, a possimus rerum ducimus odio distinctio facilis et qui, necessitatibus, magnam blanditiis eos illum eius.</p>
+            <p>Tápláló főétel. Legfőbb összetevője a krumpli, ami mellé szinte mindig van kiegészítő, mint például fasírtok. <br> <br>
+            Elkészítési idő: 40 perc</p>
         </div>
     </div>
+
+    <script>
+        function MobileMenu() {
+            var x = document.getElementById("Menu");
+            if (x.className === "Menu") {
+                x.className += "-open";
+            } else {
+                x.className = "Menu";
+            }
+        }
+    </script>
 </body>
 </html>
