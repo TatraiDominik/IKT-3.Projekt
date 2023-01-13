@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    text-decoration: none;
+}
+
+a{
+    color: black;
 }
 
 body{
@@ -21,6 +26,11 @@ nav{
     min-height: 45px;
     justify-content: space-between;
     align-items: center;
+}
+
+body img{
+    width: 100%;
+    min-height: 100px;
 }
 
 nav div a{
