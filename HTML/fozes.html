@@ -13,24 +13,26 @@
     </header>
 
     <nav>
-        <a href="index.html">Fő oldal</a>
-        <a href="fozes.html">Főzés</a>
-        <a href="foetelek.html">Fő ételek</a>
-        <a href="sutik.html">Sütik</a>
-        <a href="rolunk.html">Rólunk</a>
-
-        <button type="menu" onclick="MobileMenu()" class="phoneMenu" id="phoneMenu">
+        <button type="menu" onclick="MobileMenu()" class="hamMenu" id="hamMenu">
             <hr>
             <hr>
             <hr>
         </button>
+
+        <div class="Menu" id="Menu">
+            <a href="index.html">Fő oldal</a>
+            <a href="fozes.html">Főzés</a>
+            <a href="foetelek.html">Fő ételek</a>
+            <a href="sutik.html">Sütik</a>
+            <a href="rolunk.html">Rólunk</a>
+        </div>
     </nav>
 
     <div class="content">
         <div class="kartya gulyasleves">
             <h2>Gulyásleves</h2>
             <img class="kep" src="../IMG/Fozes_IMG/gulyasleves.png" alt="Gulyásleves" title="Gulyásleves">
-        <p>Az általában bográcsban készülő étel nagyon tápláló és ízletes, tele zöldségekkel <br> <br> Elkészítési idő: 160 perc</p>
+            <p>Az általában bográcsban készülő étel nagyon tápláló és ízletes, tele zöldségekkel <br> <br> Elkészítési idő: 160 perc</p>
         </div>
 
         <div class="kartya halaszle">
@@ -65,7 +67,12 @@
 
     <script>
         function MobileMenu() {
-            
+            var x = document.getElementById("Menu");
+            if (x.className === "Menu") {
+                x.className += "-open";
+            } else {
+                x.className = "Menu";
+            }
         }
     </script>
 </body>

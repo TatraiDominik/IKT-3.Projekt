@@ -18,6 +18,7 @@ nav{
     display: flex;
     background-color: #F8EBD9;
     width: 100%;
+    min-height: 45px;
     justify-content: space-between;
     align-items: center;
 }
@@ -38,6 +39,7 @@ nav div a{
 nav a:hover{
     background-color: black;
     color: white;
+    transition: .5s;
 }
 
 header div{
@@ -103,11 +105,25 @@ button:active > hr{
 
 
 @media screen and (max-width: 500px) {
-    nav div{
+    nav{
+        display: block;
+    }
+
+    nav button{
+        float: right;
+    }
+    
+    nav .Menu{
         display: none;
     }
 
-    nav{
-        justify-content: flex-end;
+    .Menu-open, .Menu-open a{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 501px) {
+    nav button{
+        display: none;
     }
 }
