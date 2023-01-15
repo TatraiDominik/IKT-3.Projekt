@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    text-decoration: 0;
+}
+
+body{
+    background-color: #6D6F66;
+}
+.soksuti{
+    height: 25vw;
+    width: 100vw;
+}
+
+
+nav{
+    background-color: #B0CB46;
+    height: 50px;
+    display: flex;
+}
+
+
+
+nav div{
+    min-width: 150px;
+    width: 30%;
+    max-width: 300px;
+    background-color: black;
+    align-self: center;
+    margin-left: 10%;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.navbar{
+    display: flex;
+    background-color: #F8EBD9;
+    width: 100%;
+    
+}
+.navbar a{
+
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    transition: .3s;
+}
+
+
+.navbar a:hover{
+    background-color: black;
+    color: white;
+}
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+a{
+    color: black;
+}
+
+
+/*Flex*/
+.teljes{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Jancsi{
+    background-color: #F8EBD9;
+    width: 250px;
+    margin: 15px;
+    min-height: 300px;
+    border-radius: 15px;
+}
+.Jancsih1{
+    text-align: center;
+}
+.Jancsik{
+    width: 100%;
+}
+.Jancsip{
+    text-align: justify;
+}
+
+
+.Dobos{
+    background-color: #F8EBD9;
+    width: 250px;
+    margin: 15px;
+    min-height: 300px;
+    border-radius: 15px;
+}
+.Dobosh1{
+    text-align: center;
+}
+.Dobosk{
+    width: 100%;
+}
+.Dobosp{
+    text-align: justify;
+}
+
+.Somloi{
+    background-color: #F8EBD9;
+    width: 250px;
+    margin: 15px;
+    min-height: 300px;
+    border-radius: 15px;
+}
+.Somloi1{
+    text-align: center;
+}
+.Somloik{
+    width: 100%;
+}
+.Somloip{
+    text-align: justify;
+}
+
+.Rakoczi{
+    background-color: #F8EBD9;
+    width: 250px;
+    margin: 15px;
+    min-height: 300px;
+    border-radius: 15px;
+}
+.Rakoczi1{
+    text-align: center;
+}
+.Rakoczik{
+    width: 100%;
+}
+.Rakoczip{
+    text-align: justify;
+}
+
+
+
+.Eszterhazy{
+    background-color: #F8EBD9;
+    width: 250px;
+    margin: 15px;
+    min-height: 300px;
+    border-radius: 15px;
+}
+.Eszterhazy1{
+    text-align: center;
+}
+
+.Eszterhazyk{
+    width: 100%; 
+}
+.Eszterhazyp{
+    text-align: justify;
+}
+
