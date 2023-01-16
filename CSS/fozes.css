@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    text-decoration: none;
+}
+
+a{
+    color: black;
 }
 
 body{
@@ -18,9 +23,17 @@ nav{
     display: flex;
     background-color: #F8EBD9;
     width: 100%;
+    min-height: 45px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-nav a{
+body img{
+    width: 100%;
+    min-height: 100px;
+}
+
+nav div a{
     padding: 10px;
     font-size: 20px;
     color: black;
@@ -36,6 +49,7 @@ nav a{
 nav a:hover{
     background-color: black;
     color: white;
+    transition: .5s;
 }
 
 header div{
@@ -60,6 +74,7 @@ header div{
 
 .kartya{
     background-color: white;
+    border-radius: 10px;
     width: 250px;
     min-height: 350px;
     margin: 10px;
@@ -73,7 +88,6 @@ header div{
     text-align: justify;
     margin: 5px;
 }
-
 
 button{
     min-width: 25px;
@@ -97,4 +111,29 @@ button:hover > hr{
 
 button:active > hr{
     background-color: red;
+}
+
+
+@media screen and (max-width: 500px) {
+    nav{
+        display: block;
+    }
+
+    nav button{
+        float: right;
+    }
+    
+    nav .Menu{
+        display: none;
+    }
+
+    .Menu-open, .Menu-open a{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 501px) {
+    nav button{
+        display: none;
+    }
 }
