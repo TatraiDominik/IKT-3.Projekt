@@ -7,25 +7,31 @@
     <title>Sütik</title>
     <link rel="stylesheet" href="../CSS/Sutik.css">
     <div class="teteje">
-        <div class="fúd">
-            <nav>
-                <div>FÚD</div>
-            </nav>
-            <div class="menü">
-                <div class="navbar">
-                    <a href="index.html">Fő oldal</a>
-                    <a href="fozes.html">Főzés</a>
-                    <a href="foetelek.html">Fő ételek</a>
-                    <a href="sutik.html">Sütik</a>
-                    <a href="rolunk.html">Rólunk</a>
-                </div>
-                <img class="soksuti" src="../IMG/Sütik_img/soksuti.jpg" alt="Soksüti">
-            </div>
-        </div>
+        
     </div>
-
+    
 </head>
 <body>
+    <header>
+        <div>FÚD</div>
+    </header>
+    <nav>
+        <button type="menu" onclick="MobileMenu()" class="hamMenu" id="hamMenu">
+            <hr>
+            <hr>
+            <hr>
+        </button>
+
+        <div class="Menu" id="Menu">
+            <a href="index.html">Fő oldal</a>
+            <a href="fozes.html">Főzés</a>
+            <a href="foetelek.html">Fő ételek</a>
+            <a href="sutik.html">Sütik</a>
+            <a href="rolunk.html">Rólunk</a>
+        </div>
+    </nav>
+    <img class="soksuti" src="../IMG/Sütik_img/soksuti.jpg" alt="Soksüti">
+    
     <div class="teljes">
         <a href="https://streetkitchen.hu/fantasztikus-desszertek/a-nagy-klasszikus-rigo-jancsi/" target="_blank">
         <div class="Jancsi">
@@ -63,6 +69,17 @@
         </div>
         </a>
     </div>
+
+    <script>
+        function MobileMenu() {
+            var x = document.getElementById("Menu");
+            if (x.className === "Menu") {
+                x.className += "-open";
+            } else {
+                x.className = "Menu";
+            }
+        }
+    </script>
     
 </body>
 </html>
