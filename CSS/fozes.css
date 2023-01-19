@@ -80,6 +80,11 @@ header div{
     margin: 10px;
 }
 
+.kartya:hover{
+    border: 3px solid orange;
+    transition: .25s;
+}
+
 .kartya h2{
     text-align: center;
 }
