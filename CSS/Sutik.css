@@ -16,9 +16,12 @@ body{
 
 
 nav{
-    background-color: #B0CB46;
-    height: 50px;
     display: flex;
+    background-color: #F8EBD9;
+    width: 100%;
+    min-height: 45px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -156,7 +159,7 @@ a{
     width: 250px;
     margin: 15px;
     min-height: 200px;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 .Eszterhazy1{
     text-align: center;
