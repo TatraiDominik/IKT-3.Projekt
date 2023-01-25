@@ -1,17 +1,30 @@
 *{
     margin: 0;
     padding: 0;
-    text-decoration: none;
-    text-decoration: none;
-}
-
-a{
-    color: black;
+    text-decoration: 0;
+    text-decoration: 0;
+    
 }
 
 body{
-    background-color: #7B7B7B;
+    background-color: #6D6F66;
 }
+.soksuti{
+    height: 25vw;
+    width: 98.6vw;
+}
+
+
+nav{
+    display: flex;
+    background-color: #F8EBD9;
+    width: 100%;
+    min-height: 45px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 
 header{
     background-color: #B0CB46;
@@ -28,24 +41,12 @@ nav{
     align-items: center;
 }
 
-body img{
-    width: 100%;
-    min-height: 100px;
-}
-
 nav div a{
     padding: 10px;
     font-size: 20px;
     color: black;
     transition: .3s;
 }
-
-.kep{
-    width: 100%;
-    height: 200px;
-    background-repeat: no-repeat;
-}
-
 nav a:hover{
     background-color: black;
     color: white;
@@ -65,33 +66,110 @@ header div{
     border-radius: 10px;
 }
 
-.content{
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+a{
+    color: black;
+}
+
+
+/*Flex*/
+.teljes{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.kartya{
-    background-color: white;
-    border-radius: 10px;
+.Jancsi{
+    background-color: #F8EBD9;
     width: 250px;
-    min-height: 350px;
-    margin: 10px;
+    margin: 15px;
+    min-height: 300px;
+    border-radius: 15px;
+}
+.Jancsih1{
+    text-align: center;
+}
+.Jancsik{
+    width: 100%;
+}
+.Jancsip{
+    text-align: justify;
 }
 
-.kartya:hover{
-    border: 3px solid orange;
-    transition: .25s;
+
+.Dobos{
+    background-color: #F8EBD9;
+    width: 250px;
+    margin: 15px;
+    min-height: 300px;
+    border-radius: 15px;
+}
+.Dobosh1{
+    text-align: center;
+}
+.Dobosk{
+    width: 100%;
+}
+.Dobosp{
+    text-align: justify;
 }
 
-.kartya h2{
+.Somloi{
+    background-color: #F8EBD9;
+    width: 250px;
+    margin: 15px;
+    min-height: 300px;
+    border-radius: 15px;
+}
+.Somloi1{
+    text-align: center;
+}
+.Somloik{
+    width: 100%;
+}
+.Somloip{
+    text-align: justify;
+}
+
+.Rakoczi{
+    background-color: #F8EBD9;
+    width: 250px;
+    margin: 15px;
+    min-height: 300px;
+    border-radius: 15px;
+}
+.Rakoczi1{
+    text-align: center;
+}
+.Rakoczik{
+    width: 100%;
+}
+.Rakoczip{
+    text-align: justify;
+}
+
+
+
+.Eszterhazy{
+    background-color: #F8EBD9;
+    width: 250px;
+    margin: 15px;
+    min-height: 200px;
+    border-radius: 5px;
+}
+.Eszterhazy1{
     text-align: center;
 }
 
-.kartya p{
+.Eszterhazyk{
+    width: 100%; 
+}
+.Eszterhazyp{
     text-align: justify;
-    margin: 5px;
 }
 
 button{
