@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rólunk</title>
+    <link rel="stylesheet" href="../CSS/rolunk.css">
+</head>
+<body>
+    <header>
+        <div>FÚD</div>
+    </header>
+    <nav>
+        <button type="menu" onclick="MobileMenu()" class="hamMenu" id="hamMenu">
+            <hr>
+            <hr>
+            <hr>
+        </button>
+
+        <div class="Menu" id="Menu">
+            <a href="index.html">Fő oldal</a>
+            <a href="fozes.html">Főzés</a>
+            <a href="foetelek.html">Fő ételek</a>
+            <a href="sutik.html">Sütik</a>
+            <a href="rolunk.html">Rólunk</a>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="kartya">
+            <h2>Bartek Áron</h2>
+            <img class="kep" src="../IMG/" alt="Bartek Áron" title="Bartek Áron">
+            <p>Ő egy pro League of Legend játékos, sokat játszik barátaival.</p>
+        </div>
+
+        <div class="kartya">
+            <h2>Mészáros Richárd</h2>
+            <img class="kep" src="../IMG/" alt="Mészáros Richárd" title="Mészáros Richárd">
+            <p>Hát igen.. Nem rég kezdte az Escape from Tarkov-ot azt ja.</p>
+        </div>
+
+        <div class="kartya">
+            <h2>Tátrai Dominik Oszkár</h2>
+            <img class="kep" src="../IMG/" alt="Tátrai Dominik Oszkár" title="Tátrai Dominik Oszkár">
+            <p>Nagy röpis a csávó! Jól nyomja meg minden!</p>
+        </div>
+    </div>
+
+    
+    <script>
+        function MobileMenu() {
+            var x = document.getElementById("Menu");
+            if (x.className === "Menu") {
+                x.className += "-open";
+            } else {
+                x.className = "Menu";
+            }
+        }
+    </script>
+</body>
+</html>
