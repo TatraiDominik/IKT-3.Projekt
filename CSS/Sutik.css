@@ -15,17 +15,6 @@ body{
 }
 
 
-nav{
-    display: flex;
-    background-color: #F8EBD9;
-    width: 100%;
-    min-height: 45px;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-
 header{
     background-color: #B0CB46;
     height: 50px;
