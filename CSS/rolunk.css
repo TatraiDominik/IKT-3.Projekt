@@ -28,22 +28,11 @@ nav{
     align-items: center;
 }
 
-body img{
-    width: 100%;
-    min-height: 100px;
-}
-
 nav div a{
     padding: 10px;
     font-size: 20px;
     color: black;
     transition: .3s;
-}
-
-.kep{
-    width: 100%;
-    height: 200px;
-    background-repeat: no-repeat;
 }
 
 nav a:hover{
@@ -63,35 +52,6 @@ header div{
     font-size: 20px;
     padding: 5px;
     border-radius: 10px;
-}
-
-.content{
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.kartya{
-    background-color: white;
-    border-radius: 10px;
-    width: 250px;
-    min-height: 350px;
-    margin: 10px;
-}
-
-.kartya:hover{
-    border: 3px solid orange;
-    transition: .25s;
-}
-
-.kartya h2{
-    text-align: center;
-}
-
-.kartya p{
-    text-align: justify;
-    margin: 5px;
 }
 
 button{
@@ -116,6 +76,37 @@ button:hover > hr{
 
 button:active > hr{
     background-color: red;
+}
+
+.content{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.kartya{
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    min-height: 300px;
+    margin: 10px;
+}
+
+.kep{
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.kartya h2{
+    text-align: center;
+}
+
+.kartya p{
+    text-align: justify;
+    margin: 5px;
 }
 
 
