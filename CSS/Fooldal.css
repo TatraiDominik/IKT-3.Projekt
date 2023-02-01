@@ -130,6 +130,7 @@ footer{
     
     
 }
+
 @media (min-width:1100px) {
     footer{
         position: absolute;
@@ -150,4 +151,52 @@ a{
 .boxok a:hover{
     border: 3px solid orange;
     transition: 0.25;
+}
+button{
+    min-width: 25px;
+    min-height: 25px;
+    background-color: transparent;
+    border: none;
+}
+
+button hr{
+    height: 2px;
+    width: 35px;
+    padding: 2px;
+    margin: 5px;
+    border-radius: 12px;
+    background-color: black;
+}
+
+button:hover > hr{
+    background-color: #7B7B7B;
+}
+
+button:active > hr{
+    background-color: red;
+}
+
+
+@media screen and (max-width: 500px) {
+    nav{
+        display: block;
+    }
+
+    nav button{
+        float: right;
+    }
+    
+    nav .Menu{
+        display: none;
+    }
+
+    .Menu-open, .Menu-open a{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 501px) {
+    nav button{
+        display: none;
+    }
 }
