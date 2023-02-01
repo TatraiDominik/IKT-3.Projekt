@@ -79,6 +79,10 @@ a{
     min-height: 300px;
     border-radius: 15px;
 }
+.Jancsi:hover{
+    border: 3px solid orange;
+    transition: .25s;
+}
 .Jancsih1{
     text-align: center;
 }
@@ -87,6 +91,7 @@ a{
 }
 .Jancsip{
     text-align: justify;
+    padding: 8px;
 }
 
 
@@ -97,6 +102,10 @@ a{
     min-height: 300px;
     border-radius: 15px;
 }
+.Dobos:hover{
+    border: 3px solid orange;
+    transition: .25s;
+}
 .Dobosh1{
     text-align: center;
 }
@@ -105,6 +114,7 @@ a{
 }
 .Dobosp{
     text-align: justify;
+    padding: 8px;
 }
 
 .Somloi{
@@ -114,6 +124,10 @@ a{
     min-height: 300px;
     border-radius: 15px;
 }
+.Somloi:hover{
+    border: 3px solid orange;
+    transition: .25s;
+}
 .Somloi1{
     text-align: center;
 }
@@ -122,6 +136,7 @@ a{
 }
 .Somloip{
     text-align: justify;
+    padding: 8px;
 }
 
 .Rakoczi{
@@ -131,6 +146,10 @@ a{
     min-height: 300px;
     border-radius: 15px;
 }
+.Rakoczi:hover{
+    border: 3px solid orange;
+    transition: .25s;
+}
 .Rakoczi1{
     text-align: center;
 }
@@ -139,6 +158,7 @@ a{
 }
 .Rakoczip{
     text-align: justify;
+    padding: 8px;
 }
 
 
@@ -150,6 +170,10 @@ a{
     min-height: 200px;
     border-radius: 5px;
 }
+.Eszterhazy:hover{
+    border: 3px solid orange;
+    transition: .25s;
+}
 .Eszterhazy1{
     text-align: center;
 }
@@ -159,6 +183,7 @@ a{
 }
 .Eszterhazyp{
     text-align: justify;
+    padding: 8px;
 }
 
 button{
