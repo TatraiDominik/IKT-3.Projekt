@@ -14,20 +14,20 @@
                 FÚD
             </div>
         </header>
-        
-        
+    
         <nav>
             <button type="menu" onclick="MobileMenu()" class="hamMenu" id="hamMenu">
                 <hr>
                 <hr>
                 <hr>
             </button>
-            <div>
-                <a href="../index.html">Fő oldal</a>  
-                <a href="HTML/fozes.html">Főzés</a>   
-                <a href="HTML/foetelek.html">Fő ételek</a>   
-                <a href="HTML/sutik.html">Sütik</a>    
-                <a href="HTML/rolunk.html">Rólunk</a>
+    
+            <div class="Menu" id="Menu">
+                <a href="../index.html">Fő oldal</a>
+                <a href="fozes.html">Főzés</a>
+                <a href="foetelek.html">Fő ételek</a>
+                <a href="sutik.html">Sütik</a>
+                <a href="rolunk.html">Rólunk</a>
             </div>
         </nav>
         
@@ -83,5 +83,15 @@
             </footer>
         </div>
     </div>
+    <script>
+        function MobileMenu() {
+            var x = document.getElementById("Menu");
+            if (x.className === "Menu") {
+                x.className += "-open";
+            } else {
+                x.className = "Menu";
+            }
+        }
+    </script>
 </body>
 </html>
