@@ -3,7 +3,9 @@
     padding: 0;
 }
 body{
-    background-color: #777c80;
+    background: rgb(122,124,114);
+background: radial-gradient(circle, rgba(122,124,114,1) 57%, rgba(243,245,157,1) 100%);
+
 }
 
 nav{
