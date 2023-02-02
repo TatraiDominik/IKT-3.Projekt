@@ -141,3 +141,39 @@ button:active > hr{
         display: none;
     }
 }
+.receptek{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.kartya{
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    min-height: 350px;
+    margin: 10px;
+}
+
+.kartya:hover{
+    border: 3px solid orange;
+    transition: .25s;
+}
+
+.kartya h2{
+    text-align: center;
+}
+
+.kartya p{
+    text-align: justify;
+    margin: 5px;
+}
+.kep{
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+a{
+    color: black;
+}
