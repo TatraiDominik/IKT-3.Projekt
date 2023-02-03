@@ -80,6 +80,7 @@ header div{
     width: 250px;
     min-height: 350px;
     margin: 10px;
+    box-shadow: 1px 5px 5px 1px black;
 }
 
 .kartya:hover{

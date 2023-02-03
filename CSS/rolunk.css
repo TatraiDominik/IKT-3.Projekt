@@ -93,6 +93,7 @@ button:active > hr{
     width: 250px;
     min-height: 300px;
     margin: 10px;
+    box-shadow: 1px 5px 5px 1px black;
 }
 
 .kep{
@@ -134,4 +135,3 @@ button:active > hr{
         display: none;
     }
 }
-

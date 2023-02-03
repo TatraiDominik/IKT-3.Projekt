@@ -170,7 +170,7 @@ a{
     width: 250px;
     margin: 15px;
     min-height: 200px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 .Eszterhazy:hover{
     border: 3px solid orange;
@@ -186,6 +186,10 @@ a{
 .Eszterhazyp{
     text-align: justify;
     padding: 8px;
+}
+
+.kartya{
+    box-shadow: 1px 5px 5px 1px black;
 }
 
 button{

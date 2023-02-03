@@ -154,8 +154,9 @@ button:active > hr{
     background-color: white;
     border-radius: 10px;
     width: 250px;
-    min-height: 350px;
+    min-height: 375px;
     margin: 10px;
+    box-shadow: 1px 5px 5px 1px black;
 }
 
 .kartya:hover{
