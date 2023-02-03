@@ -76,6 +76,14 @@ header{
     
 }
 
+.fozes, .sutes, .sutik{
+    box-shadow: 1px 5px 5px 1px black;
+}
+
+.keret, .keret .kajabox{
+    box-shadow: 1px 5px 5px 1px black;
+}
+
 .szoveg{
     margin: 20px;
     
@@ -99,7 +107,6 @@ header{
     background-size: cover;
     margin: auto;
     border-radius: 20px;
-    
 }
 .sutes{
     display: flex;
